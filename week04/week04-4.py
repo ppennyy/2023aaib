@@ -1,10 +1,4 @@
-class Solution:
-    def arraySign(self, nums: List[int]) -> int:
-        
-        ans=1          #一開始的答案是正的
-        for n in nums: #依序取n出來
-            ans *=n    #答案 乘n
-
-        if ans>0: return 1
-        if ans<0: return -1
-        if ans==0: return 0
+for i in range(1,10):
+  for j in range(1,10):
+    print( f'{j}x{i}={i*j:2} ', end='')
+  print()
